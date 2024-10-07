@@ -1,0 +1,91 @@
+/* Set a background image or color for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("xavier-teo-SxAXphIPWeg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+/* Container for the form */
+.container {
+    background: rgba(255, 255, 255, 0.7); /* Adjusted semi-transparent white */
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    backdrop-filter: blur(10px); /* Maintain the blur effect */
+}
+
+
+/* Form styling */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure it takes full width of the container */
+}
+
+/* Header styling */
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #5cb85c;
+}
+
+/* Input fields styling */
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    width: 100%; /* Make inputs full width */
+}
+
+/* Input field focus effect */
+input:focus {
+    border-color: #5cb85c;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%; /* Make button full width */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #4cae4c;
+    transform: translateY(-2px);
+}
+
+/* Link styling */
+p {
+    text-align: center;
+}
+
+p a {
+    color: #5cb85c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Link hover effect */
+p a:hover {
+    color: #4cae4c;
+}
